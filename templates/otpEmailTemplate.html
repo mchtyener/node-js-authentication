@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your OTP Code</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      padding: 0;
+      margin: 0;
+      background-color: #e0f7fa;
+      color: #333;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #00796b;
+      margin-bottom: 20px;
+      font-size: 28px;
+      text-align: center;
+    }
+
+    p {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    .otp-code {
+      font-size: 36px;
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #00796b;
+      padding: 15px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      transition: background-color 0.2s;
+    }
+
+    .otp-code:hover {
+      background-color: #004d40;
+    }
+
+    .expiry {
+      color: #d32f2f;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Your OTP Code</h2>
+    <p>Your OTP code is </p>
+    <p> <span class="otp-code">{{otp}}</span></p>
+    <p>It will expire in <span class="expiry">1 minute</span>.</p>
+    <p>Thank you for using our service!</p>
+    <div class="footer">
+      <p>If you didn't request this, please ignore this email.</p>
+    </div>
+  </div>
+</body>
+
+</html>
