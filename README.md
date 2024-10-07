@@ -4,7 +4,7 @@ Bu proje, kullanıcıların **login (giriş yapma)**, **register (kayıt olma)**
 
 ## Kurulum Adımları
 
-1. Terminal üzerinden aşağıdaki komutu çalıştırarak gerekli bağımlılıkları yükleyin:
+1. Terminal üzerinden aşağıdaki komutu çalıştırarak gerekli bağımlılıkları yükleyin: <br>
 npm install
 
 3. services klasöründeki emailService dosyasına gidin ve auth parametresinin altındaki email ve pass alanlarını doldurun:
