@@ -5,15 +5,13 @@ Bu proje, kullanıcıların **login (giriş yapma)**, **register (kayıt olma)**
 ## Kurulum Adımları
 
 1. Terminal üzerinden aşağıdaki komutu çalıştırarak gerekli bağımlılıkları yükleyin:
-services klasöründeki emailService dosyasına gidin ve auth parametresinin altındaki email ve pass alanlarını doldurun:
+npm install
 
-2. services klasöründeki emailService dosyasına gidin ve auth parametresinin altındaki email ve pass alanlarını doldurun:
+3. services klasöründeki emailService dosyasına gidin ve auth parametresinin altındaki email ve pass alanlarını doldurun:
 
 <ul>
     <li>email: OTP ve e-posta doğrulama işlemleri için kullanılacak mail adresi.</li>
     <li>pass: Google hesabınız üzerinden uygulama şifresi oluşturmanız gerekmektedir. Doğrudan şifre girmek yerine uygulama şifresini kullanın.</li>
-    <li>MongoDB bağlantısı için compress aktif olmalıdır. Eğer aktif değilse, veritabanı bağlantı ayarlarını database kısmında kendinize göre değiştirip istediğiniz veritabanına bağlanabilirsiniz.</li>
-    <li>MongoDB bağlantısı başarılı olduktan sonra, authentication adında bir collection otomatik olarak oluşturulacaktır.</li>
     <li>Projeyi başlatmak için terminalde aşağıdaki komutu çalıştırın:</li>
     npm start
 </ul>
