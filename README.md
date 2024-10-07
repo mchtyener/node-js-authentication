@@ -116,7 +116,3 @@ Bu API uç noktalarını kullanarak kullanıcı kaydı, giriş işlemleri, şifr
 - Express
 - Bcrypt
 - JSON Web Token (JWT) gibi gerekli paketler.
-
-## Lisans
-
-Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
