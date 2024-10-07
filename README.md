@@ -15,9 +15,7 @@ services klasöründeki emailService dosyasına gidin ve auth parametresinin alt
     <li>MongoDB bağlantısı için compress aktif olmalıdır. Eğer aktif değilse, veritabanı bağlantı ayarlarını database kısmında kendinize göre değiştirip istediğiniz veritabanına bağlanabilirsiniz.</li>
     <li>MongoDB bağlantısı başarılı olduktan sonra, authentication adında bir collection otomatik olarak oluşturulacaktır.</li>
     <li>Projeyi başlatmak için terminalde aşağıdaki komutu çalıştırın:</li>
-    ```bash
     npm start
-    ```
 </ul>
     
 
